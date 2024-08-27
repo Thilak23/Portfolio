@@ -6,7 +6,7 @@ import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 function App() {
   return (
-    <div className='white'>
+    <div>
       <Header/>
       <Home/>
       <Skills/>
