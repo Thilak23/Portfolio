@@ -1,7 +1,38 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}body.dark-mode .mynav {
+  background-color: #333333;
+}
+body.dark-mode button{
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 600;
+}
+body.dark-mode .my-link-2 li a{
+  color: #ffffff;
+}
+body.dark-mode .pro-1 .but-1 .link-1{
+  background-color: #ffffff;
+  color: #000000;
+}
+body.dark-mode .pro-2 .but-2 .link-1{
+  background-color: #ffffff;
+  color: #000000;
+}
+body.dark-mode .pro-3 .but-3 .link-1{
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .mynav{
   display: flex;
   flex-direction: row;
-  background-color: white;  
+  background-color: #f8f9fa;  
   justify-content: space-evenly;
 }
 .logo{
@@ -79,5 +110,8 @@
   }
   .open li{
     padding-top: 15px;
+  }
+  body.dark-mode .open li a{
+    color: #ffffff;
   }
 }
