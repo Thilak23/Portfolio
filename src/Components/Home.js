@@ -4,7 +4,7 @@ import photo from './Assets/photo.png'
 
 const Home = () => {
   return (
-   <div>
+   <div id='home'>
       <div className='main'>
         <div className='main-1'>
             <h1>Hello, I'm <span className='highlight'>Thilak</span></h1>

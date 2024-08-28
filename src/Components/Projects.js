@@ -7,7 +7,7 @@ import RPS from './Assets/RPS.jpg'
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <div className='projects-title'>
         PROJECTS
       </div>

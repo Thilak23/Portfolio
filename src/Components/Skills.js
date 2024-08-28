@@ -12,7 +12,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className='skill'>
+    <div className='skill' id='skills'>
       <div className='skill-title'>
         SKILLS
       </div>
