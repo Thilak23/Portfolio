@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import './Styles/header.css';
 import menu from './Assets/menu.png';
 import dark from './Assets/dark.png';
-import moonwhite from './Assets/moonwhite.jpg'; // Assuming you have a light mode icon
+import moonwhite from './Assets/moonwhite.jpg';
+import menuwhite from './Assets/menuwhite.png';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
   const [darkTheme, setDarkTheme] = useState(false);
+
+  const menuOpen = () => {
+    setOpen(!open);
+  }
 
   const toggleTheme = () => {
     setDarkTheme(!darkTheme);
@@ -37,8 +42,8 @@ const Header = () => {
             onClick={toggleTheme}
           />
         </div>
-        <div className="menu" onClick={() => setOpen(!open)}>
-          <img src={menu} alt="menu" height={25} />
+        <div className="menu" onClick={menuOpen}>
+          <img src={darkTheme ? menuwhite : menu} alt="menu" height={25} />
         </div>
       </nav>
     </div>
