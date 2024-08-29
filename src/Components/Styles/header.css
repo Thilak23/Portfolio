@@ -30,10 +30,17 @@ body.dark-mode .pro-3 .but-3 .link-1{
 }
 
 .mynav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   background-color: #f8f9fa;  
   justify-content: space-evenly;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
 }
 .logo{
   display: flex;
