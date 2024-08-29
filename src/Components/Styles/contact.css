@@ -34,7 +34,21 @@
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 0;
-} 
+}
+.linkedin-link{
+  text-decoration: none;
+  color: black;
+}
+.dark-mode .social .linkedin-link{
+  color: white;
+}
+.dark-mode .social .github-link{
+  color: white;
+}
+.github-link{
+  text-decoration: none;
+  color: black;
+}
 .linkedin{
   font-size: 27px;
   margin-right: 8px;
