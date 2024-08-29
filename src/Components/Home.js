@@ -10,7 +10,7 @@ const Home = () => {
             <h1>Hello, I'm <span className='highlight'>Thilak</span></h1>
             <h2 className='domain'>Front-End Developer</h2>
             <p className='about'>Welcome to my personal portfolio. I specialize in creating interactive and responsive web applications using modern technoligies such as HTML, CSS, JavaScript and React JS.</p>
-            <button className='hire'>Get in Touch</button>
+            <button className='hire'><a href='https://thilak2k3@gmail.com' className='hire-link'>Get in Touch</a></button>
         </div>
         <div className='main-2'>
           <div>

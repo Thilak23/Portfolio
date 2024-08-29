@@ -16,8 +16,8 @@ const Contact = () => {
           <div className='social-media'>
             <p className='p-3'>Check My Profile</p>
             <div className='social'>
-              <FaLinkedin className='linkedin'/>
-              <FaGithub className='github'/>
+              <a href='https://www.linkedin.com/in/thilak-s-2k3/' className='linkedin-link'><FaLinkedin className='linkedin'/></a>
+              <a href='https://github.com/Thilak23' className='github-link'><FaGithub className='github'/></a>
             </div>
           </div>
         </div>
